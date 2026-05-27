@@ -25,9 +25,9 @@ export function Footer() {
         <div className="text-sm">
           <p className="text-muted-foreground mb-3">Elsewhere</p>
           <ul className="space-y-2">
-            <li><a href="https://github.com/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-accent"><Github size={14}/> GitHub</a></li>
-            <li><a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-accent"><Linkedin size={14}/> LinkedIn</a></li>
-            <li><a href="mailto:hello@yugdalwadi.com" className="inline-flex items-center gap-2 hover:text-accent"><Mail size={14}/> Email</a></li>
+            <li><a href="https://github.com/xyphoes0727" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-accent"><Github size={14}/> GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/yug-dalwadi/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-accent"><Linkedin size={14}/> LinkedIn</a></li>
+            <li><a href="mailto:yugdalwadi@gmail.com" className="inline-flex items-center gap-2 hover:text-accent"><Mail size={14}/> Email</a></li>
             <li><a href="/resume.pdf" className="inline-flex items-center gap-2 hover:text-accent"><FileText size={14}/> Resume</a></li>
           </ul>
         </div>

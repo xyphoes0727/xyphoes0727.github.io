@@ -78,9 +78,9 @@ function Home() {
 
         <Reveal delay={0.4}>
           <div className="mt-16 flex items-center gap-5 text-muted-foreground">
-            <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-accent transition-colors"><Github size={18} /></a>
-            <a href="https://linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-accent transition-colors"><Linkedin size={18} /></a>
-            <a href="mailto:hello@yugdalwadi.com" aria-label="Email" className="hover:text-accent transition-colors"><Mail size={18} /></a>
+            <a href="https://github.com/xyphoes0727" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-accent transition-colors"><Github size={18} /></a>
+            <a href="https://www.linkedin.com/in/yug-dalwadi/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-accent transition-colors"><Linkedin size={18} /></a>
+            <a href="mailto:yugdalwadi@gmail.com" aria-label="Email" className="hover:text-accent transition-colors"><Mail size={18} /></a>
           </div>
         </Reveal>
       </section>
@@ -224,19 +224,19 @@ function Home() {
           </div>
           <div className="md:col-span-6 md:col-start-7">
             <a
-              href="mailto:hello@yugdalwadi.com"
+              href="mailto:yugdalwadi@gmail.com"
               className="group flex items-center justify-between p-6 border border-border rounded-xl hover:border-accent transition-colors"
             >
               <div>
                 <p className="font-mono text-xs text-muted-foreground uppercase tracking-wider">Email</p>
-                <p className="mt-1 font-display text-xl text-foreground group-hover:text-accent transition-colors">hello@yugdalwadi.com</p>
+                <p className="mt-1 font-display text-xl text-foreground group-hover:text-accent transition-colors">yugdalwadi@gmail.com</p>
               </div>
               <ArrowUpRight className="text-muted-foreground group-hover:text-accent transition-colors" />
             </a>
             <div className="mt-3 grid grid-cols-3 gap-3">
               {[
-                { icon: Github, label: "GitHub", href: "https://github.com/" },
-                { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/" },
+                { icon: Github, label: "GitHub", href: "github.com/xyphoes0727/" },
+                { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/yug-dalwadi/" },
                 { icon: FileText, label: "Resume", href: "/resume.pdf" },
               ].map(({ icon: Icon, label, href }) => (
                 <a
