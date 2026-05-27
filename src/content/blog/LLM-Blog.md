@@ -5,9 +5,6 @@ date: "2024-05-27"
 tags: ["llm", "transformers", "training", "pytorch"]
 ---
 
-# How to train your LLM
-
-# Training a 148M Parameter LLM from Scratch
 
 Github Link: https://github.com/xyphoes0727/llm-pretraining
 
