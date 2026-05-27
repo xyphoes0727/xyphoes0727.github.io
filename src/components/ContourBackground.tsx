@@ -160,7 +160,7 @@ export function ContourBackground() {
       sampleField(0);
       ctx.clearRect(0, 0, width, height);
       for (let k = 0; k < LEVELS.length; k++) {
-        drawContour(LEVELS[k], 0.06, k === 2 ? accent : fg);
+        drawContour(LEVELS[k], 1, k === 2 ? accent : fg);
       }
     } else {
       raf = requestAnimationFrame(frame);
