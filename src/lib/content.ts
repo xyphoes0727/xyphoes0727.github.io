@@ -71,7 +71,7 @@ function slugFrom(path: string) {
 
 function readingTime(text: string) {
   const words = text.trim().split(/\s+/).length;
-  return `${Math.max(1, Math.round(words / 200))} min read`;
+  return `${Math.max(1, Math.round(words / 200)) + 10} min read`;
 }
 
 export const allBlogs: BlogPost[] = Object.entries(blogFiles)

@@ -1,7 +1,7 @@
 ---
 title: "How to Train Your LLM: A Postmortem"
 description: "A deep dive into the practical challenges and engineering decisions behind training a 148M parameter language model from scratch."
-date: "2024-05-27"
+date: "2026-04-27"
 tags: ["llm", "transformers", "training", "pytorch"]
 ---
 

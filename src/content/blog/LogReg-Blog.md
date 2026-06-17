@@ -1,3 +1,11 @@
+---
+title: "Logistic Regression: A Beginner’s Guide to Classification"
+description: "A short and beginner friendly explanation of Classification and Logistic Regression"
+date: "2024-09-21"
+tags: ["logistic regression", "classification"]
+---
+
+
 # **Logistic Regression: A Beginner’s Guide to Classification**
 
 Imagine you are a college student trying to decide whether to attend the 8 AM class tomorrow morning. You consider a few key factors: your current attendance percentage, how tired you feel, and whether the course is important enough (on a scale of 1-10 using your intuition). Probably, the most important factor is your attendance, if it’s below 75%, unfortunately you would have to go to avoid falling further behind. If it’s above 75%, you can decide to skip and catch up on sleep. This decision-making process is similar to how logistic regression works—it helps us predict outcomes (categories) based on certain criteria.
