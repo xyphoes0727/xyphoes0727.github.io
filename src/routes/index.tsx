@@ -8,9 +8,9 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Yug Dalwadi — AI/ML Engineer" },
-      { name: "description", content: "AI/ML engineer focused on machine learning, deep learning, autonomous systems, and backend engineering." },
+      { name: "description", content: "AI/ML engineer at IIT Jodhpur building real-time ML systems, LLM training pipelines, and applied AI products." },
       { property: "og:title", content: "Yug Dalwadi — AI/ML Engineer" },
-      { property: "og:description", content: "AI/ML engineer focused on machine learning, deep learning, autonomous systems, and backend engineering." },
+      { property: "og:description", content: "AI/ML engineer at IIT Jodhpur building real-time ML systems, LLM training pipelines, and applied AI products." },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -45,10 +45,10 @@ function Home() {
 
         <Reveal delay={0.2}>
           <p className="mt-8 max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed">
-            I build machine learning systems that ship — from research prototypes to
-            production-grade autonomous software. Currently interested in efficient
-            deep learning, agentic systems, and the engineering substrate that makes
-            them reliable.
+            I build machine learning systems that ship, from streaming fraud detection
+            pipelines to large-scale model training workflows. I am currently focused
+            on deep learning systems, online learning, and reliable backend
+            infrastructure for AI applications.
           </p>
         </Reveal>
 
@@ -79,7 +79,7 @@ function Home() {
         <Reveal delay={0.4}>
           <div className="mt-16 flex items-center gap-5 text-muted-foreground">
             <a href="https://github.com/xyphoes0727" target="_blank" rel="noreferrer" aria-label="GitHub" className="hover:text-accent transition-colors"><Github size={18} /></a>
-            <a href="https://www.linkedin.com/in/yug-dalwadi/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-accent transition-colors"><Linkedin size={18} /></a>
+            <a href="https://www.linkedin.com/in/yug-dalwadi-304032257/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="hover:text-accent transition-colors"><Linkedin size={18} /></a>
             <a href="mailto:yugdalwadi@gmail.com" aria-label="Email" className="hover:text-accent transition-colors"><Mail size={18} /></a>
           </div>
         </Reveal>
@@ -98,21 +98,21 @@ function Home() {
             <p>
               My work sits between three disciplines: <span className="text-foreground">machine learning</span>,{" "}
               <span className="text-foreground">systems engineering</span>, and{" "}
-              <span className="text-foreground">autonomous software</span>. I care less about
-              novel architectures and more about the boring craft that makes them ship — telemetry,
-              evaluation, reproducibility, latency.
+              <span className="text-foreground">AI product development</span>. I care deeply about
+              the execution layer that makes models useful in production: telemetry,
+              evaluation, reproducibility, and latency.
             </p>
             <p>
-              I've spent time on deep learning for perception, distributed training infrastructure,
-              and backend services that serve models at scale. Outside of work, I write about
-              the gap between papers and production.
+              I have worked on real-time fraud detection, LLM pre-training, and multimodal retrieval
+              systems, while mentoring student cohorts through hands-on ML projects. Outside of work,
+              I write about machine learning, deep learning, and AI systems.
             </p>
             <div className="pt-4 grid grid-cols-2 gap-y-3 gap-x-6 text-sm">
               {[
-                ["Focus", "ML · Deep Learning"],
-                ["Systems", "Distributed · Backend"],
-                ["Domain", "Autonomy · Perception"],
-                ["Tools", "PyTorch · Rust · Go"],
+                ["Focus", "ML Systems · Deep Learning"],
+                ["Systems", "Streaming · Backend"],
+                ["Domain", "Fraud Detection · LLMs"],
+                ["Tools", "PyTorch · FastAPI · Django"],
               ].map(([k, v]) => (
                 <div key={k} className="flex flex-col">
                   <span className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground/60">{k}</span>
@@ -219,7 +219,7 @@ function Home() {
               Have something to build?
             </h2>
             <p className="mt-4 text-muted-foreground max-w-md">
-              The best way to reach me is email. I read everything and reply to most messages within a few days.
+              The best way to reach me is email. I am based in Vadodara, Gujarat, and open to research and engineering collaborations.
             </p>
           </div>
           <div className="md:col-span-6 md:col-start-7">
@@ -235,8 +235,8 @@ function Home() {
             </a>
             <div className="mt-3 grid grid-cols-3 gap-3">
               {[
-                { icon: Github, label: "GitHub", href: "github.com/xyphoes0727/" },
-                { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/yug-dalwadi/" },
+                { icon: Github, label: "GitHub", href: "https://github.com/xyphoes0727" },
+                { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/yug-dalwadi-304032257/" },
                 { icon: FileText, label: "Resume", href: "/resume.pdf" },
               ].map(({ icon: Icon, label, href }) => (
                 <a

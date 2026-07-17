@@ -7,10 +7,10 @@ import { ArrowUpRight } from "lucide-react";
 export const Route = createFileRoute("/projects/")({
   head: () => ({
     meta: [
-      { title: "Projects — Yug Dalwadi" },
-      { name: "description", content: "A selection of ML systems, autonomous software, and research prototypes by Yug Dalwadi." },
-      { property: "og:title", content: "Projects — Yug Dalwadi" },
-      { property: "og:description", content: "A selection of ML systems, autonomous software, and research prototypes." },
+      { title: "Projects - Yug Dalwadi" },
+      { name: "description", content: "A selection of ML systems, LLM engineering work, and real-time AI applications by Yug Dalwadi." },
+      { property: "og:title", content: "Projects - Yug Dalwadi" },
+      { property: "og:description", content: "A selection of ML systems, LLM engineering work, and real-time AI applications." },
       { property: "og:url", content: "/projects" },
     ],
     links: [{ rel: "canonical", href: "/projects" }],
@@ -28,8 +28,8 @@ function Projects() {
       <SectionLabel n="∎">Projects</SectionLabel>
       <h1 className="font-display text-5xl md:text-6xl leading-tight">Case studies.</h1>
       <p className="mt-5 max-w-xl text-muted-foreground">
-        Selected work spanning machine learning research, autonomous software, and the
-        infrastructure underneath. Each is documented as a technical write-up rather than a pitch.
+        Selected work spanning streaming ML systems, large-scale model training, and practical
+        AI product engineering. Each project is documented as a technical write-up rather than a pitch.
       </p>
 
       <div className="mt-12 flex flex-wrap gap-2">

@@ -8,7 +8,7 @@ export function Footer() {
         <div>
           <p className="font-display text-2xl text-foreground">Yug Dalwadi</p>
           <p className="mt-2 text-sm text-muted-foreground max-w-xs">
-            AI/ML engineer working at the intersection of machine learning, systems, and autonomous software.
+            AI/ML engineer focused on real-time ML systems, deep learning, and production-grade AI infrastructure.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export function Footer() {
           <p className="text-muted-foreground mb-3">Elsewhere</p>
           <ul className="space-y-2">
             <li><a href="https://github.com/xyphoes0727" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-accent"><Github size={14}/> GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/yug-dalwadi/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-accent"><Linkedin size={14}/> LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/yug-dalwadi-304032257/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-accent"><Linkedin size={14}/> LinkedIn</a></li>
             <li><a href="mailto:yugdalwadi@gmail.com" className="inline-flex items-center gap-2 hover:text-accent"><Mail size={14}/> Email</a></li>
             <li><a href="/resume.pdf" className="inline-flex items-center gap-2 hover:text-accent"><FileText size={14}/> Resume</a></li>
           </ul>
